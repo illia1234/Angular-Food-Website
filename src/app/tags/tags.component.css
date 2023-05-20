@@ -1,0 +1,21 @@
+.nav{
+  display: flex;
+  width: 750px;
+  margin: 0 auto;
+}
+.nav-item{
+  margin: 20px auto 0px auto;
+  border: 1px solid orange;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #ffc3c3;
+}
+.nav-item:hover{
+  background-image: linear-gradient(to top, #ffa1a1, #ffa4a4);
+  transform: scale(1.1);
+  transition: all 0.3s ease-out;
+}
+.nav-item:not(:hover){
+  transform: scale(1);
+  transition: all 0.3s ease-out;
+}

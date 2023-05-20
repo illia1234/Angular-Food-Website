@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+}
+.main_src {
+  width: 600px;
+  height: 450px;
+  margin-left: auto;
+  border-radius: 45px;
+}
+
+.ditales {
+  display: inline-block;
+  width: 500px;
+  margin-left: 150px;
+  line-height: 40px;
+  margin: auto;
+}
+.header {
+  font-size: 36px;
+  font-weight: bold;
+}
+.favorite {
+  margin-left: 25px;
+}
+.rating {
+  margin-top: 20px;
+}
+.origins {
+  display: flex;
+}
+.origins_txt{
+  margin-right: 15px;
+  background-color: rgb(162, 255, 255);
+  border: 1px solid rgb(0, 255, 255);
+  border-radius: 25px;
+  margin: 15px 15px 15px 0px;
+  width: auto;
+}
+.origins_txt:hover{
+  background-color: rgb(119, 255, 255);
+}
+.cook-time {
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+.price {
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  color: rgb(59, 186, 59);
+}
+.price::before{
+  content: "Price: ";
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.add_button {
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid orange;
+  border-radius: 25px;
+  text-align: center;
+  background-image: linear-gradient(to right, #ff1313, #ffbbbb);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.add_button:hover {
+  background-image: linear-gradient(to right, #ff1313, #ff1313);
+  transition: all 0.10s ease-out;
+}
